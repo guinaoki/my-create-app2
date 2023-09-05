@@ -1,9 +1,5 @@
 import { Link } from "react-router-dom"
 import { listaProdutos } from "../../JS/listaProdutos"
-import styles from './Produtos.css'
-import { BiSolidKeyboard } from 'react-icons/bi'
-import {BsFillMouse2Fill} from 'react-icons/bs'
-import {FiMonitor} from 'react-icons/fi'
 import {BiSolidPencil} from 'react-icons/bi'
 
 export default function Produtos(){

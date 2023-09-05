@@ -44,7 +44,7 @@
 nav{
   display: flex; width: 100vw;
   justify-content: center; align-items: center;
-  height: 8vh; background-color: royalblue;
+  height: 8vh; background-color: rgb(110, 27, 27);
 
   & a{color: white; font-size: 1.5em; padding: 15px;}
 }
@@ -58,5 +58,5 @@ main{
 footer{
   display: flex; width: 100vw; justify-content: center;
   align-items: center; height: 5vh;
-  background-color: darkblue;
+  background-color: rgb(117, 24, 24);
 }

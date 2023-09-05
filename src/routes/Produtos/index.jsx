@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { listaProdutos } from "../../JS/listaProdutos"
 import { BiSolidKeyboard } from 'react-icons/bi'
 import {BsFillMouse2Fill} from 'react-icons/bs'
+import {FiMonitor} from 'react-icons/fi'
 
 export default function Produtos(){
     return(
@@ -19,6 +20,9 @@ export default function Produtos(){
             </div>
             <div className="logoMouse">
                 <BsFillMouse2Fill size='1rem'/>
+            </div>
+            <div className="logoMonitor">
+                <FiMonitor size='1rem'/>
             </div>
         </main>
     )
